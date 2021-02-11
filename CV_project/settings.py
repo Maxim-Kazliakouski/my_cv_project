@@ -25,7 +25,7 @@ SECRET_KEY = 'k5fp_ux(95teek9(zdinrq4c^mgkmf-j3#)3rr)oaph(ad5-f5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['maximkazliakouski.pythonanywhere.com']
 
 
 # Application definition
@@ -124,3 +124,7 @@ STATIC_URL = '/static/'
 #    BASE_DIR / "static",
 #    '/var/www/static/'
 #]
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = Path(BASE_DIR / 'static')
+MEDIA_ROOT = Path(BASE_DIR / 'media')
