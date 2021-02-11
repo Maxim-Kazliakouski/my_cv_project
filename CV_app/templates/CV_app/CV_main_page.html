@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Kazliakouski - CV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="{% static 'CV_app/css/main_style.css' %}">
+</head>
+<body>
+    <div class="left_side_bar">
+    <aside>
+        <div class="name">Max Kazliakouski</div>
+        <div class="foto">
+        <img src="{% static 'CV_app/img/1.png' %}" width="150px">
+        </div>
+        <div class="position">Software Test Engineer</div>
+        <ul>
+            <a href=""><li class="fas fa-user-tie"> Personal info</li></a><br>
+            <a href=""><li class="fas fa-briefcase"> Work experience</li></a><br>
+            <a href=""><li class="fas fa-graduation-cap"> Education</li></a><br>
+            <a href=""><li class="fas fa-globe"> Languages</li><br></a>
+            <a href=""><li class="fas fa-chart-bar"> Skills</li><br></a>
+            <a href=""><li class="fas fa-award"> Certificates</li><br></a>
+            <a href=""><li class="fas fa-plane"> Hobbies</li><br></a>
+        </ul>    
+        <div class="contact">
+            Contact me via:
+        </div>
+        <div class="social_media">
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/maxim-kazliakouski/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="mail">
+                <a href="mailto:maxim.kazliakouski@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="skype">
+                <a href=""><i class="fab fa-skype"></i></a>
+            </div>
+            <div class="phone">
+                <a href=""><i class="fas fa-phone-square"></i></a>
+            </div>
+        </div>
+    </aside>
+    </div>
+</body>
+</html>
