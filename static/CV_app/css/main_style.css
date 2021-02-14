@@ -14,7 +14,8 @@ aside {
     float: left;
     background: #757575;
     border-right: 5px solid  rgba(0, 255, 170, 0.644);
-    height: 100vh;
+    height: inherit;
+    position: fixed;
 }
 
 aside ul {list-style: none}
@@ -23,7 +24,7 @@ body .left_side_bar aside div.name {
     text-align: center;
     color: rgba(0, 255, 170, 0.644);
     position: relative;
-    font-size: 30px;
+    font-size: 26px;
     margin: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -63,11 +64,6 @@ aside ul a:active {
 
 aside div.foto {
     text-align: center;
-    /*position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px; */
 }
 
 .position {
@@ -112,3 +108,420 @@ aside div.foto {
     width: 21%;
     transition: all .6s ease;
 }
+
+main_info .background {
+    margin-left: 8%;
+    width: auto;
+    height: 100vmin;
+    background-image: url(/static/CV_app/img/personal_info_1.png);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+/*main_info .background {
+    margin-left: 9%;
+    width: auto;
+    height: 100vh;
+    background:#585858;
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+}
+*/
+
+main_info .background .header_page{
+    margin-top: 150px;
+    margin-left: 32%;
+}
+
+main_info .background .header_page span {
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 2em white;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+main_info .block_about_me {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+}
+
+main_info .block_about_me ul {
+    /*background-color: black;*/
+    padding-right: 40px;
+    margin: 0px;
+    text-align: left;
+}
+
+main_info .block_about_me ul li {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:#fff;
+    list-style: none;
+    text-shadow: 3px 4px 4px black, 0 0 2em white;
+    font-weight: bold;
+}
+
+main_info .block_about_me ul li span {
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 2em white;
+    font-weight: bold;
+}
+
+main_info .block_about_me ul i {
+    color: rgba(0, 255, 170, 0.644);
+}
+
+
+/* .block_about_me  ul{list-style: none} */ /* turning off the tops near text */
+.block_about_me ul {list-style-position: inside;}
+
+
+main_info .main_page {
+    margin-left: 8%;
+    width: auto;
+    height: 100vh;
+    background-image: url(/static/CV_app/img/5.jpg);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+main_info .some_info_about_me {
+    float: left;
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+    font-weight: bold;
+    margin-top: 170px;
+    margin-left: 18%;
+    text-align: center;
+}
+
+main_info .some_info_about_me h1 {
+    color: violet;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+main_info .some_info_about_me span {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* work expirience page */
+main_info .background_exp {
+    margin-left: 8%;
+    width: auto;
+    height: 135vmin;
+    background-image: url(/static/CV_app/img/exp_2.jpg);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+main_info .expirience {
+    float: left;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+
+main_info .exp_active_platform ul {
+    list-style: none;
+    margin-left: -25px;
+}
+main_info .exp_active_platform {
+    color:white;
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+    font-weight: bold;
+    width: 100%;
+    margin: 0%;
+    text-align: left;
+}
+
+main_info .background .expirience .exp_active_platform, .exp_it_academy, h4, h4, h4 {
+    text-align: center;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+}
+
+main_info .exp_it_academy {
+    color:white;
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+    font-weight: bold;
+    width: 35%;
+    position: absolute;
+    padding-left: 5%;
+    text-align: left;
+}
+
+main_info .exp_it_academy ul {
+    list-style: none;
+}
+
+main_info .exp_svyatovit ul {
+    list-style: none;
+    margin-left: -25px;
+}
+
+main_info .exp_it_academy ul {
+    list-style: none;
+    margin-left: -25px;
+}
+
+main_info details summary {
+    outline: none;
+    font-size: 1.5rem;
+}
+
+main_info details {
+    position: absolute;
+    margin-left: 20%;
+    color: white;
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+    font-weight: bold;
+}
+
+main_info details summary h4 {
+    text-align: center;
+    margin: -100px;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+}
+
+main_info .exp_svyatovit {
+    margin-left: -100px;
+}
+
+main_info details summary {
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 3px 4px black, 0 0 1em white;
+}
+
+main_info .exp_active_platform, .exp_it_academy {
+    display: inline-block;
+}
+
+/* блок информации Education */
+main_info .background_edu {
+    margin-left: 8%;
+    width: auto;
+    height: 100vmin;
+    background-image: url(/static/CV_app/img/edu.jpg);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+main_info .education {
+    float: left;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+
+main_info .education .IT_academy {
+    float: left;   
+    text-align: center;
+    margin-left: -20%;
+    width: 100%;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 30px;
+}
+  
+main_info .education .post_graduate { 
+    text-align: center; 
+    position: absolute;
+    margin-left: 30%;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main_info .education .bntu { 
+    text-align: center;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 20%;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+main_info .background_cert .first_4_foto figcaption {
+    text-align: center;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main_info .background_cert .second_3_foto figcaption {
+    text-align: center;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* страничка с сертификатами */
+
+main_info .background_cert {
+    margin-left: 8%;
+    width: auto;
+    height: 100vmin;
+    background-image: url(/static/CV_app/img/cert.jpg);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+.first_4_foto img {
+    float: left;
+    margin-top: 25%;
+}
+
+main_info .background_cert div.first_4_foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main_info .background_cert div.second_3_foto {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+  main_info .background_cert .second_3_foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* страница с языками */
+
+main_info .background_lang {
+    margin-left: 8%;
+    width: auto;
+    height: 100vmin;
+    background-image: url(/static/CV_app/img/lang.jpg);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+main_info .background_lang .icons_lang figure {
+    float: left;
+    margin-top: 20%;
+}
+
+main_info .background_lang div.icons_lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main_info .background_lang .icons_lang figcaption {
+    text-align: center;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* страничка skills */
+
+main_info .background_skills {
+    margin-left: 8%;
+    width: auto;
+    height: 100vmin;
+    background-image: url(/static/CV_app/img/skills.jpg);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+.background_skills h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: cyan;
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    margin-top: 15px;
+}
+
+.background_skills h2 {
+    margin-top: 29%;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center;
+    color: cyan;
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+}
+
+.first_string, .second_string, .third_string, .fouth_string {
+    padding-top: 20px;
+    color: white;
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+.first_string_personal, .second_string_personal, .third_string_personal, .fouth_string_personal {
+    padding-top: 20px;
+    color: white;
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-weight: bold;
+    margin-left: 4.5%;
+}
+
+.first_string_personal figure, .second_string_personal figure, .third_string_personal figure,
+.fouth_string_personal figure, .first_string figure, .second_string figure, .third_string figure,
+.fouth_string figure {
+    text-align: center;
+}
+
+
+/* page hobbies */
+
+main_info .background_hob {
+    margin-left: 8%;
+    width: auto;
+    height: 100vmin;
+    background-image: url(/static/CV_app/img/hobbies/hobby_4.png);
+    border: 5px solid  rgba(0, 255, 170, 0.644);
+    background-size: 100%;
+}
+
+.hobby_first_string, .hobby_second_string {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hobby_first_string figcaption, .hobby_second_string figcaption {
+    text-align: center;
+    color: rgba(0, 255, 170, 0.644);
+    text-shadow: 3px 4px 4px black, 0 0 1em white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
