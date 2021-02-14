@@ -1,0 +1,41 @@
+{% extends 'CV_app/main_layout.html' %}
+{% load static %}
+
+{% block title %}Certificates{% endblock %}
+
+{% block content %}
+<div class="background_cert">
+    <div class="first_4_foto">
+        <figure>
+        <img src="{% static 'CV_app/img/cert/it-academy.jpg' %}" alt="" tabindex="0">
+        <figcaption>IT-Academy</figcaption>
+        </figure>
+        <figure>
+        <img src="{% static 'CV_app/img/cert/Soft-skills.jpg' %}" alt="" tabindex="0">
+        <figcaption>Soft-skills</figcaption>
+        </figure>
+        <figure>
+        <img src="{% static 'CV_app/img/cert/ISTQB.jpg' %}" alt="" tabindex="0">
+        <figcaption>ISTQB</figcaption>
+        </figure>
+        <figure>
+        <img src="{% static 'CV_app/img/cert/English B1.jpg' %}" alt="" tabindex="0">
+        <figcaption>English B1</figcaption>
+        </figure>
+    </div>
+    <div class="second_3_foto">
+        <figure>
+        <img src="{% static 'CV_app/img/cert/Certificate Linux.jpg' %}" alt="" tabindex="0">
+        <figcaption>Linux</figcaption>
+        </figure>
+        <figure>
+        <img src="{% static 'CV_app/img/cert/Certificate HTML & CSS.jpg' %}" alt="" tabindex="0">
+        <figcaption>HTML & CSS</figcaption>
+        </figure>
+        <figure>
+        <img src="{% static 'CV_app/img/cert/Certificate Git.jpg' %}" alt="" tabindex="0">
+        <figcaption>Git</figcaption>
+        </figure>
+    </div>
+</div>
+{% endblock %}
