@@ -621,10 +621,65 @@ main_info .background_cert .first_4_foto {
     max-width: 200px;
     max-height: 200px;
     cursor: zoom-in;
-    border: 5px solid black;
+    border: 3px solid black;
   }
-  
-  main_info .background_cert .first_4_foto img:focus {
+
+/* вспылвание серта при нажатии */
+.first_4_foto img{
+    float: left;
+    z-index: 31;
+    margin-left: auto;
+    text-align: center;
+    max-width: auto;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .first_4_foto img:focus {
+    position: absolute;
+    top: -13%;
+    left: 50%;
+    transform: scale(3, 3); 
+    pointer-events: none;
+    -moz-user-select: none; user-select: none;
+    cursor: zoom-out;
+    outline: none;
+  }
+
+
+  .second_3_foto {
+    -moz-user-select: none; user-select: none;
+  }
+  .second_3_foto img {
+    max-width: 200px;
+    max-height: 200px;
+    cursor: zoom-in;
+    border: 3px solid black;
+  } 
+
+  .second_3_foto img{
+    float: left;
+    z-index: 31;
+    margin-left: auto;
+    text-align: center;
+    max-width: auto;
+    cursor: zoom-in;
+    transition: 1s;
+  }
+
+  .second_3_foto img:focus {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: scale(3, 3); 
+    pointer-events: none;
+    -moz-user-select: none; user-select: none;
+    cursor: zoom-out;
+    outline: none;
+  }
+
+/* */
+
+/* main_info .background_cert .first_4_foto img:focus {
     position: fixed;
     top: 1%;
     left: 59%;
@@ -636,6 +691,7 @@ main_info .background_cert .first_4_foto {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -moz-user-select: none; user-select: none;
+
   }
   main_info .background_cert .first_4_foto img:focus ~ div {
     position: fixed;
@@ -647,8 +703,10 @@ main_info .background_cert .first_4_foto {
     background: rgba(240,240,240,.9);
     cursor: zoom-out;
   }
-
+*/
 /* zoom для остальных 3 сертов */
+
+/*
 main_info .background_cert .second_3_foto {
     -moz-user-select: none; user-select: none;
   }
@@ -681,6 +739,7 @@ main_info .background_cert .second_3_foto {
     background: rgba(240,240,240,.9);
     cursor: zoom-out;
   }
+  */
 
   /* красивое появление сертификатов */
 
