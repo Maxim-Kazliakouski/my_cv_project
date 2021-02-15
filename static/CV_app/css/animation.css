@@ -623,6 +623,7 @@ main_info .background_cert .first_4_foto {
     cursor: zoom-in;
     border: 5px solid black;
   }
+  
   main_info .background_cert .first_4_foto img:focus {
     position: fixed;
     top: 1%;
